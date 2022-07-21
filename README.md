@@ -2,11 +2,11 @@
 Full reference image quality assessment using statistical model and Machine Learning Regression (VIF)
 
 This is the implementation of Full Reference Image quality Assessment based on Information fildelity criteria (Visual Information Fidility).
-This implementation focuses on the Visual Information Fidelity (VIF) Index, or Sheikh-
-Bovik Index, which is a specific and quite successful implementation of the
+This implementation focuses on the Visual Information Fidelity (VIF) Index, or Sheikh-Bovik Index, which is a specific and quite successful implementation of the
 information fidelity–based approach.
 
 For theorotical part you can refer to the original paper. 
+
 Output of the method is value in between 0 and 1. We take two images for comparison
 1. original image (img2o.jpg)
 2. distorted image (img2c.jpg)
