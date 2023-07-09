@@ -37,6 +37,9 @@ def _get_sigmas(GT,P,win,mode='same',**kwargs):
 			filter2(P*P,win,mode)  - P_sum_sq, \
 			filter2(GT*P,win,mode) - GT_P_sum_mul
 
+def filterFaultyPixels(image_ls):
+	pass
+
 def fspecial(fltr,ws,**kwargs):
 	if fltr == Filter.UNIFORM:
 		return np.ones((ws,ws))/ ws**2
