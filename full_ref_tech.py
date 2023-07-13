@@ -4,7 +4,7 @@ from utils import _initial_check,_get_sigmas,_get_sums,Filter,fspecial,filter2
 
 def _vif_single(Org,Dis,sigma_n):
 	"""
- 	Add comments
+ 	Add comment
  	"""
 	EPS = 1e-10 #tolernace for zero variance. Variance below this is set to zero, 
 	#and zero is set to this value to avoid numerical issues such as multiplication by zero in some cases
