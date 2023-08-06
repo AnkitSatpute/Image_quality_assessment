@@ -40,6 +40,9 @@ def _get_sigmas(GT,P,win,mode='same',**kwargs):
 def filterFaultyPixels(image_ls):
 	pass
 
+def addUtilFunc():
+	pass
+
 def fspecial(fltr,ws,**kwargs):
 	if fltr == Filter.UNIFORM:
 		return np.ones((ws,ws))/ ws**2
